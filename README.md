@@ -85,11 +85,20 @@ $	python rand_sensi.py -gpu 0 -sample_size 1000 -len 20 -trials 100
 If you use our data or code, please cite our work:
 
 ```
-@article{bhattamishra2022simplicity,
-  title={Simplicity bias in transformers and their ability to learn sparse boolean functions},
-  author={Bhattamishra, Satwik and Patel, Arkil and Kanade, Varun and Blunsom, Phil},
-  journal={arXiv preprint arXiv:2211.12316},
-  year={2022}
+@inproceedings{bhattamishra-etal-2023-simplicity,
+    title = "Simplicity Bias in Transformers and their Ability to Learn Sparse {B}oolean Functions",
+    author = "Bhattamishra, Satwik  and
+      Patel, Arkil  and
+      Kanade, Varun  and
+      Blunsom, Phil",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.317",
+    pages = "5767--5791",
+    abstract = "Despite the widespread success of Transformers on NLP tasks, recent works have found that they struggle to model several formal languages when compared to recurrent models. This raises the question of why Transformers perform well in practice and whether they have any properties that enable them to generalize better than recurrent models. In this work, we conduct an extensive empirical study on Boolean functions to demonstrate the following: (i) Random Transformers are relatively more biased towards functions of low sensitivity. (ii) When trained on Boolean functions, both Transformers and LSTMs prioritize learning functions of low sensitivity, with Transformers ultimately converging to functions of lower sensitivity. (iii) On sparse Boolean functions which have low sensitivity, we find that Transformers generalize near perfectly even in the presence of noisy labels whereas LSTMs overfit and achieve poor generalization accuracy. Overall, our results provide strong quantifiable evidence that suggests differences in the inductive biases of Transformers and recurrent models which may help explain Transformer{'}s effective generalization performance despite relatively limited expressiveness.",
 }
 ```
 
