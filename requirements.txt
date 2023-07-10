@@ -1,0 +1,15 @@
+torch
+attrdict
+torchtext
+matplotlib
+seaborn
+scipy
+numpy
+pandas
+ipywidgets
+ipdb
+seaborn
+nltk
+pydot
+sympy
+wandb

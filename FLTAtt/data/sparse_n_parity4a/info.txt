@@ -1,0 +1,6 @@
+Len: 40
+idx: 2, 9, 23, 36
+
+noise_rate: 0.05
+Train: 40k
+Dev: 10k
